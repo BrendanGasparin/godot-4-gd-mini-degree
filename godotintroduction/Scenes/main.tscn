@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bakbnt8c1dscg"]
+
+[ext_resource type="Texture2D" uid="uid://1to8mqlc5hrp" path="res://Sprites/Player.png" id="1_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://cmc1t4hhrlruj" path="res://Scenes/coin.tscn" id="2_8gbba"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(200, 150)
+texture = ExtResource("1_bo1nx")
+
+[node name="Coin" parent="." instance=ExtResource("2_8gbba")]
+position = Vector2(405, 156)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(200, 150)

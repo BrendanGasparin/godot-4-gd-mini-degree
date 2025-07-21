@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=3 uid="uid://pn0wa1kh5joe"]
+
+[ext_resource type="Texture2D" uid="uid://1to8mqlc5hrp" path="res://Sprites/Player.png" id="1_m1awr"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(300, 150)
+texture = ExtResource("1_m1awr")
+
+[node name="Player2" type="Sprite2D" parent="."]
+position = Vector2(400, 150)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_m1awr")
+
+[node name="Player3" type="Sprite2D" parent="."]
+position = Vector2(200, 150)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("1_m1awr")
+
+[node name="Player4" type="Sprite2D" parent="."]
+position = Vector2(250, 250)
+rotation = -2.35619
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_m1awr")
+
+[node name="Player5" type="Sprite2D" parent="."]
+position = Vector2(350, 250)
+rotation = 2.35619
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_m1awr")
+
+[node name="Player6" type="Sprite2D" parent="."]
+position = Vector2(350, 50)
+rotation = 0.785398
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_m1awr")
+
+[node name="Player7" type="Sprite2D" parent="."]
+position = Vector2(250, 50)
+rotation = -0.785398
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_m1awr")
